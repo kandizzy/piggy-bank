@@ -31,7 +31,7 @@ export default function sketch (p5) {
   // this special function receives data from App.jsx withTracker
   p5.myCustomRedrawAccordingToNewPropsHandler = function (props) {
     if (props.coin){
-      // get the new ascii object
+      // get the new coin object
       coin = props.coin;
       // get a new random color
       r = p5.random(255);
