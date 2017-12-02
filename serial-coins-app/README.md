@@ -17,7 +17,7 @@ How to find the path to your serial port
 Edit the `server/main.js` files on [line 29](https://github.com/kandizzy/piggy-bank/blob/master/serial-coins-app/server/main.js#L29) with your serial port from step 2
 
 ## 4
-In Terminal, `cd` into this directory (super-coins-app) and then run the following commands:
+In Terminal, `cd` into this directory (serial-coins-app) and then run the following commands:
 
 	meteor npm install serialport --save
 	meteor npm install react-p5-wrapper --save
