@@ -1,12 +1,12 @@
 If you have not installed Node or Meteor, follow the steps in [Setting up your development environment](https://github.com/areaofeffect/hello-world/blob/master/week8/README.md#setting-up-your-development-environment) before running this application.
 
-# How to run super-serial-app
+# How to run super-coins-app
 ## 1 
 Download these files to your computer
 
 ## 2
 
-Connect your Arduino to your computer via USB and run Examples -> Communcation -> AsciiTable (found in the Arduino IDE)
+Connect your Arduino to your computer via USB and run the sendCoins app in the Arduino folder
 
 How to find the path to your serial port
 
@@ -14,10 +14,10 @@ How to find the path to your serial port
 
 
 ## 3
-Edit the `server/main.js` files on [line 68](https://github.com/areaofeffect/hello-world/blob/master/week8/in-class-apps/super-serial-app/server/main.js#L68) with your serial port from step 2
+Edit the `server/main.js` files on [line 29](https://github.com/kandizzy/piggy-bank/blob/master/serial-coins-app/server/main.js#L29) with your serial port from step 2
 
 ## 4
-In Terminal, `cd` into this directory (super-serial-app) and then run the following commands:
+In Terminal, `cd` into this directory (super-coins-app) and then run the following commands:
 
 	meteor npm install serialport --save
 	meteor npm install react-p5-wrapper --save
