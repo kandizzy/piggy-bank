@@ -17,7 +17,7 @@ function addCoin(data) {
     var v = dataArr[1].trim();
     var value = parseInt(v);
     console.log("The value as an integer", value);
-    // upsert into the database so that the front end will update each time the Arduino detects a coin
+    // insert into the database so that the front end will update each time the Arduino detects a coin
     Meteor.call('coins.insert', value);
   }
   
